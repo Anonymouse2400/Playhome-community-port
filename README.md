@@ -2,7 +2,7 @@
 
  Unity Engine used : Unity 5.5.1f1
  Visual studio used ; Visual Studio 2015
-
+Source code extractor used : assetripper (Extracting unity full souunrce code) https://github.com/AssetRipper/AssetRipper/issues , UABE(for extracting some contents from asset bundle) https://github.com/SeriousCache/UABE , dnspy and ilspy for recovering some source code.
  A halfbaked working trying to port on android there are some issues
  1. Shaders missing 
  2. Assets bundles are lock to target on platform windows looking for a fix the game can detect files but cant load due to the assets being made for windows and not for android it might take time to modify each asset if this one was fix ingame model characters would run ongoing
