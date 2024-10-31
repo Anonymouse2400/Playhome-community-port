@@ -2,7 +2,10 @@
 
  Unity Engine used : Unity 5.5.1f1
  Visual studio used ; Visual Studio 2015
-Source code extractor used : assetripper (Extracting unity full souunrce code) https://github.com/AssetRipper/AssetRipper/issues , UABE(for extracting some contents from asset bundle) https://github.com/SeriousCache/UABE , dnspy and ilspy for recovering some source code.
+Source code extractor used :
+assetripper (Extracting unity full souunrce code) https://github.com/AssetRipper/AssetRipper/issues , 
+UABE(for extracting some contents from asset bundle) https://github.com/SeriousCache/UABE , 
+dnspy and ilspy for recovering some scripts .
 
 -------------------------------------------------------------------------------------------------------
  A halfbaked working trying to port on android there are some issues
@@ -24,8 +27,8 @@ Things todo!
 
 1. Extract every assets bundles that can be seen from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
 2.  rebuild shaders from unity 5.5.5f1 ❌
-3.  Build it as a android ✅ (due to the game engine is dated 2016 you have to execute a command on cmd inside platform tool to install this apk on android 13 and above adb "install --bypass-low-target-sdk-block name of the apk.apk " ✅
+3.  Build it as a android ✅ (due to the game engine is dated 2016 you have to execute a command on cmd inside platform tool to install this apk on android 13 and above adb "install --bypass-low-target-sdk-block name of the apk.apk " oh dont forgt to switch platform if youre building it to android) ✅
 4.  Adding mods? Translations? ❌
 
 Whats next?
-Try porting koikatsu and honey select on android!
+Well Try porting koikatsu and honey select on android though i did have started some!
