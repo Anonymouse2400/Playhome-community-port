@@ -16,6 +16,6 @@
 
 Things todo!
 
-1. Extract every assets from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
+1. Extract every assets bundles that can be seen from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
 2.  rebuild shaders from unity 5.5.5f1 ❌
 3.  Build it as a android ✅
