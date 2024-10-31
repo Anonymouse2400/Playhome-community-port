@@ -5,7 +5,7 @@
 
  A halfbaked working trying to port on android there are some issues
  1. Shaders missing 
- 2. Assets are lock to target on platform windows looking for a fix the game can detect files but cant load due to the assets being made for windows and not for android it might take time to modify each asset 
+ 2. Assets bundles are lock to target on platform windows looking for a fix the game can detect files but cant load due to the assets being made for windows and not for android it might take time to modify each asset if this one was fix ingame model characters would run ongoing
  3.  Need some code rebased
  4.  The whole source code is open community is free to modify
 5. Need to copy the userdata and abdata on data/com.burger.hentai/files
