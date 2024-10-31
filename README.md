@@ -28,7 +28,7 @@ Things todo!
 1. Extract every assets bundles that can be seen from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
 2.  rebuild shaders from unity 5.5.5f1 ❌
 3.  Build it as a android ✅ (due to the game engine is dated 2016 you have to execute a command on cmd inside platform tool to install this apk on android 13 and above adb "install --bypass-low-target-sdk-block name of the apk.apk " oh dont forgt to switch platform if youre building it to android) ✅
-4.  Adding mods? Translations? ❌
+4.  Adding mods? Translations? Upgrading the game engine to newer version? ❌
 
 Whats next?
 Well Try porting koikatsu and honey select on android though i did have started some!
