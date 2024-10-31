@@ -1,0 +1,24 @@
+using System;
+
+public enum CUTACT
+{
+	UNKNOWN = -1,
+	JUMPSCRIPT = 0,
+	COLORFILTER = 1,
+	IMAGE = 2,
+	BGM = 3,
+	SE = 4,
+	VOICE = 5,
+	SUBTITLE = 6,
+	ANIME = 7,
+	EXPRESSION = 8,
+	CAMERA = 9,
+	POSITION = 10,
+	CHARASHOW = 11,
+	IK = 12,
+	LIGHT = 13,
+	NEXTSCENE = 14,
+	MEMORYEND = 15,
+	GAMEVARIABLE = 16,
+	NUM = 17
+}

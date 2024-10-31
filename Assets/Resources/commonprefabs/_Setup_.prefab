@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1222421770141818}
+  m_IsPrefabParent: 1
+--- !u!1 &1222421770141818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4805708583830688}
+  - component: {fileID: 114766001621267741}
+  m_Layer: 0
+  m_Name: _Setup_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4805708583830688
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1222421770141818}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114766001621267741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1222421770141818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb352f9e4286faf0952926f34402ede0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiplayBlendShader_2: {fileID: 4800000, guid: 4a7cae9a9ac162246b6e237cfe8491b7,
+    type: 2}
+  multiplayBlendShader_3: {fileID: 4800000, guid: ad53a94977bcd3248bdefc8295fba73f,
+    type: 2}
+  multiplayBlendShader_6: {fileID: 4800000, guid: 98951e5d1ed8ca043b9a6a4761100121,
+    type: 2}
+  normalBlendShader_2: {fileID: 4800000, guid: 10016886a583c0948af2446623071bf3, type: 2}
+  normalAddShader_2: {fileID: 4800000, guid: 31c319c41d3369748926b6c4cd77e2e9, type: 2}
+  hsvOffset: {fileID: 4800000, guid: 91eb7b8faa27aab4fadd4f285ff40831, type: 2}
+  skinBlendShader_Body: {fileID: 4800000, guid: db9e56dcae32d4042ae9ee0dc0fa5a41,
+    type: 2}
+  skinBlendShader_Face: {fileID: 4800000, guid: 1c8dcb9aca997f944a982a18237e1bea,
+    type: 2}
+  skinBlendShader_Male: {fileID: 4800000, guid: 1d92a5e72d4963d409f7b934f1fe323f,
+    type: 2}

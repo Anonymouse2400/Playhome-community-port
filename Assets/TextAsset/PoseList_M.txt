@@ -1,0 +1,7 @@
+anime	name
+tachi_pose_00	立ち01
+tachi_pose_01	立ち02
+tachi_pose_02	立ち03
+tachi_pose_03	立ち04
+tachi_pose_04	立ち05
+tachi_pose_05	立ち06

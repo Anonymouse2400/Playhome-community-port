@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: eye
+  m_Shader: {fileID: 4800000, guid: 331789eb5eabb504b8f155715ccee2b1, type: 2}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 6afb896040d39054782594f92b18f64f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CorneaNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DecalTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DissolveTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a6e3cd017c1858742bbed75ec4575df0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IncandescenceMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a6e3cd017c1858742bbed75ec4575df0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 91a13a24b88869046a42425b32179d38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 276799a1b2dfda546bc65d741553384a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RimTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 748840e4fc0230e42a89273484c2e4f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BaseColorVertexTint
+      second: 0
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _CorneaNormalMapScale
+      second: 1
+    - first:
+        name: _CorneaProperties
+      second: 0
+    - first:
+        name: _CorneaRoughness
+      second: 1
+    - first:
+        name: _CorneaSpecularity
+      second: 0.08
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Decal
+      second: 0
+    - first:
+        name: _DecalAlphaVertexTint
+      second: 0
+    - first:
+        name: _DecalSpecularity
+      second: 0.5
+    - first:
+        name: _DecalTexUV
+      second: 0
+    - first:
+        name: _DecalWeight
+      second: 1
+    - first:
+        name: _DetailAlbedoMapUV
+      second: 0
+    - first:
+        name: _DetailMode
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DetailOcclusion
+      second: 1
+    - first:
+        name: _DetailT
+      second: 0
+    - first:
+        name: _DetailWeight
+      second: 1
+    - first:
+        name: _Dissolve
+      second: 0
+    - first:
+        name: _DissolveCutoff
+      second: 0
+    - first:
+        name: _DissolveEdgeWidth
+      second: 0.01
+    - first:
+        name: _DissolveGlowWeight
+      second: 1
+    - first:
+        name: _DissolveTexUV
+      second: 0
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission
+      second: 1
+    - first:
+        name: _EmissionWeight
+      second: 0.755
+    - first:
+        name: _EyeCorneaWeight
+      second: 0.6
+    - first:
+        name: _EyeIrisScattering
+      second: 0
+    - first:
+        name: _EyeParallax
+      second: 0.02
+    - first:
+        name: _EyeProperties
+      second: 0
+    - first:
+        name: _EyePupilSize
+      second: 0
+    - first:
+        name: _EyeRoughness
+      second: 0
+    - first:
+        name: _EyeScleraScattering
+      second: 0
+    - first:
+        name: _EyeSpecularTint
+      second: 0
+    - first:
+        name: _EyeSpecularity
+      second: 0.36
+    - first:
+        name: _EyeballTextures
+      second: 0
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _IncandescenceMapUV
+      second: 0
+    - first:
+        name: _IrisProperties
+      second: 0
+    - first:
+        name: _IrisPupilSize
+      second: 0
+    - first:
+        name: _IrisScatterIntensity
+      second: 5.5
+    - first:
+        name: _IrisScatterPower
+      second: 4.56
+    - first:
+        name: _IrisShadowing
+      second: 0.83
+    - first:
+        name: _Lightmapping
+      second: 1
+    - first:
+        name: _MainPhysicalProperties
+      second: 0
+    - first:
+        name: _MainTexUV
+      second: 0
+    - first:
+        name: _MainTextures
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _Occlusion
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.0475
+    - first:
+        name: _Rim
+      second: 0
+    - first:
+        name: _RimBias
+      second: 0.514
+    - first:
+        name: _RimPower
+      second: 10
+    - first:
+        name: _RimTexUV
+      second: 0
+    - first:
+        name: _RimWeight
+      second: 0.654
+    - first:
+        name: _Roughness
+      second: 0
+    - first:
+        name: _ScleraNormalMapScale
+      second: 1
+    - first:
+        name: _ScleraProperties
+      second: 0
+    - first:
+        name: _ScleraRoughness
+      second: 0.06
+    - first:
+        name: _ScleraSpecularity
+      second: 0.158
+    - first:
+        name: _Specularity
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _CorneaColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _DecalColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DetailAlbedoMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _DissolveGlowColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EyeColor
+      second: {r: 0.8088235, g: 0.43476018, b: 0.26762545, a: 1}
+    - first:
+        name: _EyeScleraColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _IncandescenceMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _IrisColor
+      second: {r: 0.85882354, g: 0.6039216, b: 0.4862745, a: 1}
+    - first:
+        name: _MainTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ScleraColor
+      second: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}

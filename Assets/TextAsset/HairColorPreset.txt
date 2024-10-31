@@ -1,0 +1,248 @@
+[Color]
+name:黒髪
+mainColor:0.000, 0.000, 0.000, 1.000
+cuticleColor:0.750, 0.750, 0.750, 1.000
+cuticleExp:6
+fresnelColor:0.750, 0.750, 0.750, 1.000
+fresnelExp:0.3
+
+[Color]
+name:金髪01
+mainColor:0.745, 0.598, 0.248, 1.000
+cuticleColor:0.669, 0.669, 0.669, 1.000
+cuticleExp:4.993158
+fresnelColor:0.693, 0.693, 0.693, 1.000
+fresnelExp:0.7186304
+
+[Color]
+name:金髪02
+mainColor:1.000, 0.803, 0.333, 1.000
+cuticleColor:0.841, 0.837, 0.837, 1.000
+cuticleExp:4.993158
+fresnelColor:0.526, 0.526, 0.526, 1.000
+fresnelExp:0.7186304
+
+[Color]
+name:金髪03
+mainColor:1.000, 0.817, 0.381, 1.000
+cuticleColor:0.934, 0.934, 0.934, 1.000
+cuticleExp:4.993158
+fresnelColor:0.846, 0.844, 0.844, 1.000
+fresnelExp:0.1028564
+
+[Color]
+name:茶髪01
+mainColor:0.529, 0.295, 0.000, 1.000
+cuticleColor:0.645, 0.634, 0.634, 1.000
+cuticleExp:3.834589
+fresnelColor:0.613, 0.613, 0.613, 1.000
+fresnelExp:0.09624024
+
+[Color]
+name:茶髪02
+mainColor:0.627, 0.349, 0.000, 1.000
+cuticleColor:0.818, 0.808, 0.808, 1.000
+cuticleExp:6
+fresnelColor:0.667, 0.667, 0.667, 1.000
+fresnelExp:0.3
+
+[Color]
+name:茶髪03
+mainColor:0.849, 0.557, 0.189, 1.000
+cuticleColor:0.833, 0.813, 0.813, 1.000
+cuticleExp:6
+fresnelColor:0.841, 0.841, 0.841, 1.000
+fresnelExp:0.3
+
+[Color]
+name:オレンジ髪01
+mainColor:0.784, 0.321, 0.052, 1.000
+cuticleColor:0.605, 0.605, 0.605, 1.000
+cuticleExp:3.384961
+fresnelColor:0.661, 0.661, 0.661, 1.000
+fresnelExp:0.392168
+
+[Color]
+name:オレンジ髪02
+mainColor:0.987, 0.404, 0.066, 1.000
+cuticleColor:0.795, 0.795, 0.795, 1.000
+cuticleExp:6
+fresnelColor:0.726, 0.726, 0.726, 1.000
+fresnelExp:0.392168
+
+[Color]
+name:オレンジ髪03
+mainColor:1.000, 0.610, 0.490, 1.000
+cuticleColor:0.862, 0.862, 0.862, 1.000
+cuticleExp:6
+fresnelColor:0.782, 0.782, 0.782, 1.000
+fresnelExp:0.4884082
+
+[Color]
+name:赤髪01
+mainColor:0.824, 0.000, 0.000, 1.000
+cuticleColor:0.693, 0.693, 0.693, 1.000
+cuticleExp:2.278198
+fresnelColor:0.510, 0.510, 0.510, 1.000
+fresnelExp:0.3
+
+[Color]
+name:赤髪02
+mainColor:1.000, 0.000, 0.000, 1.000
+cuticleColor:0.626, 0.626, 0.626, 1.000
+cuticleExp:3
+fresnelColor:0.664, 0.664, 0.664, 1.000
+fresnelExp:0.3
+
+[Color]
+name:赤髪03
+mainColor:1.000, 0.215, 0.215, 1.000
+cuticleColor:0.661, 0.661, 0.661, 1.000
+cuticleExp:3.721808
+fresnelColor:0.910, 0.910, 0.910, 1.000
+fresnelExp:0.3
+
+[Color]
+name:桃髪01
+mainColor:0.784, 0.000, 0.556, 1.000
+cuticleColor:0.621, 0.621, 0.621, 1.000
+cuticleExp:6
+fresnelColor:0.629, 0.629, 0.629, 1.000
+fresnelExp:0.05763672
+
+[Color]
+name:桃髪02
+mainColor:1.000, 0.000, 0.708, 1.000
+cuticleColor:0.818, 0.818, 0.818, 1.000
+cuticleExp:6
+fresnelColor:0.780, 0.780, 0.780, 1.000
+fresnelExp:0.1538794
+
+[Color]
+name:桃髪03
+mainColor:1.000, 0.294, 0.636, 1.000
+cuticleColor:0.818, 0.818, 0.818, 1.000
+cuticleExp:4.617463
+fresnelColor:0.879, 0.879, 0.879, 1.000
+fresnelExp:0.1538794
+
+[Color]
+name:水色髪01
+mainColor:0.000, 0.542, 0.784, 1.000
+cuticleColor:0.822, 0.822, 0.822, 1.000
+cuticleExp:2.648212
+fresnelColor:0.613, 0.613, 0.613, 1.000
+fresnelExp:0.1924805
+
+[Color]
+name:水色髪02
+mainColor:0.000, 0.712, 0.961, 1.000
+cuticleColor:0.894, 0.894, 0.894, 1.000
+cuticleExp:3.61062
+fresnelColor:0.629, 0.629, 0.629, 1.000
+fresnelExp:0.09624024
+
+[Color]
+name:水色髪03
+mainColor:0.569, 0.810, 1.000, 1.000
+cuticleColor:0.878, 0.878, 0.878, 1.000
+cuticleExp:2.648218
+fresnelColor:0.902, 0.902, 0.902, 1.000
+fresnelExp:0.5887207
+
+[Color]
+name:紫髪01
+mainColor:0.321, 0.000, 0.588, 1.000
+cuticleColor:0.613, 0.613, 0.613, 1.000
+cuticleExp:6
+fresnelColor:0.814, 0.814, 0.814, 1.000
+fresnelExp:0.1075171
+
+[Color]
+name:紫髪02
+mainColor:0.646, 0.400, 0.851, 1.000
+cuticleColor:0.780, 0.780, 0.780, 1.000
+cuticleExp:6
+fresnelColor:0.745, 0.744, 0.744, 1.000
+fresnelExp:0.3
+
+[Color]
+name:紫髪03
+mainColor:0.849, 0.669, 1.000, 1.000
+cuticleColor:0.872, 0.872, 0.872, 1.000
+cuticleExp:6
+fresnelColor:0.863, 0.863, 0.863, 1.000
+fresnelExp:0.3
+
+[Color]
+name:緑髪01
+mainColor:0.320, 0.472, 0.111, 1.000
+cuticleColor:0.742, 0.742, 0.742, 1.000
+cuticleExp:6
+fresnelColor:0.725, 0.725, 0.725, 1.000
+fresnelExp:0.2037598
+
+[Color]
+name:緑髪02
+mainColor:0.452, 0.667, 0.157, 1.000
+cuticleColor:0.750, 0.750, 0.750, 1.000
+cuticleExp:6
+fresnelColor:0.750, 0.750, 0.750, 1.000
+fresnelExp:0.3
+
+[Color]
+name:緑髪03
+mainColor:0.578, 0.926, 0.563, 1.000
+cuticleColor:0.701, 0.701, 0.701, 1.000
+cuticleExp:0.4812012
+fresnelColor:0.902, 0.902, 0.902, 1.000
+fresnelExp:0.3
+
+
+[Color]
+name:青髪01
+mainColor:0.000, 0.026, 0.471, 1.000
+cuticleColor:0.661, 0.661, 0.661, 1.000
+cuticleExp:1.997662
+fresnelColor:0.645, 0.645, 0.645, 1.000
+fresnelExp:0.1075195
+
+[Color]
+name:青髪02
+mainColor:0.000, 0.038, 0.686, 1.000
+cuticleColor:0.580, 0.580, 0.580, 1.000
+cuticleExp:1.997662
+fresnelColor:0.687, 0.687, 0.687, 1.000
+fresnelExp:0.3
+
+[Color]
+name:青髪03
+mainColor:0.406, 0.483, 0.900, 1.000
+cuticleColor:0.718, 0.718, 0.718, 1.000
+cuticleExp:5.91485
+fresnelColor:0.902, 0.902, 0.902, 1.000
+fresnelExp:0.2460498
+
+[Color]
+name:白髪01
+mainColor:0.745, 0.745, 0.745, 1.000
+cuticleColor:0.926, 0.926, 0.926, 1.000
+cuticleExp:5.714966
+fresnelColor:0.565, 0.565, 0.565, 1.000
+fresnelExp:0.2037573
+
+[Color]
+name:白髪02
+mainColor:1.000, 1.000, 1.000, 1.000
+cuticleColor:0.910, 0.888, 0.888, 1.000
+cuticleExp:4.993158
+fresnelColor:0.349, 0.349, 0.349, 1.000
+fresnelExp:0.3
+
+[Color]
+name:白髪03
+mainColor:1.000, 1.000, 1.000, 1.000
+cuticleColor:1.000, 1.000, 1.000, 1.000
+cuticleExp:6
+fresnelColor:0.926, 0.926, 0.926, 1.000
+fresnelExp:0.3

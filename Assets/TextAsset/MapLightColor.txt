@@ -1,0 +1,78 @@
+ベッドルーム	昼	map&chara	chara	夕	map&chara	chara	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	30	H	224	40	H	224	230
+	S	0	0	S	95	20	S	20	50	S	20	60
+	V	200	110	V	210	150	V	255	160	V	255	160
+	intensity	1	1	intensity	1	1	intensity	0.3	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+律子の部屋	q	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	18	H	224	50	H	224	240
+	S	0	0	S	95	80	S	20	10	S	20	40
+	V	200	100	V	229	190	V	255	160	V	255	160
+	intensity	1	1	intensity	0.4	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+明子の部屋	昼	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	30	H	224	50	H	224	240
+	S	0	0	S	95	20	S	20	10	S	100	40
+	V	180	140	V	229	95	V	255	150	V	255	150
+	intensity	1	1	intensity	0.9	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+リビング	昼	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	30	H	0	40	H	224	240
+	S	0	0	S	95	20	S	0	20	S	20	40
+	V	160	180	V	210	100	V	210	180	V	255	160
+	intensity	1	1	intensity	1	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+風呂場	昼	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	30	H	0	60	H	224	240
+	S	0	0	S	95	20	S	0	10	S	20	50
+	V	210	160	V	229	100	V	210	190	V	255	150
+	intensity	0.4	1	intensity	1	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+和室	昼	map&chara	chara	夕	map&chara	chara	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	20	H	0	0	H	224	240
+	S	0	0	S	95	40	S	0	0	S	20	40
+	V	210	160	V	229	100	V	210	180	V	255	160
+	intensity	0.4	1	intensity	0.9	1	intensity	0.4	1	intensity	0.3	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+洗面所	昼	map&chara	chara	夕	map&chara	chara	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	0	20	H	0	50	H	0	220
+	S	0	0	S	0	90	S	0	10	S	0	65
+	V	210	190	V	210	170	V	210	200	V	210	175
+	intensity	0.4	1	intensity	0.4	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+エントランス	昼	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	0	20	H	0	35	H	0	245
+	S	0	0	S	0	60	S	0	20	S	0	20
+	V	210	190	V	210	210	V	210	180	V	210	170
+	intensity	0.6	1	intensity	0.3	1	intensity	0.4	1	intensity	0.2	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+トイレ	昼	map&chara	chara	夕	map&chara	chara	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	0	17	H	0	53	H	0	220
+	S	0	0	S	0	100	S	0	60	S	0	75
+	V	160	160	V	210	160	V	210	160	V	210	160
+	intensity	0.4	1	intensity	0.4	1	intensity	0.4	1	intensity	0.4	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	
+												
+												
+庭	昼	map&chara	chara	夕	Directional light (1)	AlloyDirectionalLight	夜（明）	map&chara	chara	夜（暗）	map&chara	chara
+	H	0	0	H	15	20	H	66	0	H	0	240
+	S	0	0	S	95	40	S	5	0	S	0	60
+	V	210	160	V	229	170	V	200	80	V	200	150
+	intensity	1	1	intensity	1	1	intensity	0.6	1	intensity	0.6	1
+	Ambient	1	1	Ambient	1	1	Ambient	1	1	Ambient	0.6	

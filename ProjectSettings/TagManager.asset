@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - New tag
+  - New tag (1)
+  - New tag (2)
+  - New tag (3)
+  - New tag (4)
+  - New tag (5)
+  - New tag (6)
+  - New tag (7)
+  - New tag (8)
+  - ObjHair
+  - ObjHairAcs
+  - New tag (11)
+  - New tag (12)
+  - ObjColor
+  - New tag (14)
+  - New tag (15)
+  - New tag (16)
+  - New tag (17)
+  - New tag (18)
+  - New tag (19)
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Chara
+  - 
+  - Map
+  - MapHide
+  - Mucus
+  - 
+  - 
+  - 
+  - NonCamera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - CoordinateCapture
+  - 
+  - CameraCheck
+  - Capture
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

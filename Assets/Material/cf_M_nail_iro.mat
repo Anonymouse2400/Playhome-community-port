@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cf_M_nail_iro
+  m_Shader: {fileID: 4800000, guid: b25f4987a19c6124493cce215448c2ed, type: 2}
+  m_ShaderKeywords: EFFECT_BUMP _BUMPMODE_PARALLAX _EMISSION _RIM_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 73a550d0610fd20499d5a7fbcdf51882, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 74415c740ddb8a94db87b54a5fa7706c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AO2
+      second: 0
+    - first:
+        name: _Ao2MapUV
+      second: 1
+    - first:
+        name: _Ao2Occlusion
+      second: 1
+    - first:
+        name: _BaseColorVertexTint
+      second: 0
+    - first:
+        name: _BumpMode
+      second: 0
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Decal
+      second: 0
+    - first:
+        name: _DecalAlphaVertexTint
+      second: 0
+    - first:
+        name: _DecalSpecularity
+      second: 0.5
+    - first:
+        name: _DecalTexUV
+      second: 0
+    - first:
+        name: _DecalWeight
+      second: 1
+    - first:
+        name: _DetailAlbedoMapUV
+      second: 0
+    - first:
+        name: _DetailFalloff
+      second: 0.01
+    - first:
+        name: _DetailMaskSource
+      second: 0
+    - first:
+        name: _DetailMaskStrength
+      second: 1
+    - first:
+        name: _DetailMode
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DetailOcclusion
+      second: 1
+    - first:
+        name: _DetailT
+      second: 0
+    - first:
+        name: _DetailWeight
+      second: 1
+    - first:
+        name: _Dissolve
+      second: 0
+    - first:
+        name: _DissolveCutoff
+      second: 0
+    - first:
+        name: _DissolveEdgeWidth
+      second: 0.01
+    - first:
+        name: _DissolveGlowWeight
+      second: 1
+    - first:
+        name: _DissolveTexUV
+      second: 0
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Emission
+      second: 0
+    - first:
+        name: _EmissionWeight
+      second: 1
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _HasBumpMap
+      second: 1
+    - first:
+        name: _IncandescenceMapUV
+      second: 0
+    - first:
+        name: _Lightmapping
+      second: 1
+    - first:
+        name: _MainPhysicalProperties
+      second: 0
+    - first:
+        name: _MainTexUV
+      second: 0
+    - first:
+        name: _MainTextures
+      second: 0
+    - first:
+        name: _MaxSamples
+      second: 20
+    - first:
+        name: _Metal
+      second: 0
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _MetallicOffset
+      second: 0
+    - first:
+        name: _MinSamples
+      second: 4
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _Occlusion
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _ParallaxT
+      second: 0
+    - first:
+        name: _Rim
+      second: 1
+    - first:
+        name: _RimBias
+      second: 0
+    - first:
+        name: _RimPower
+      second: 4
+    - first:
+        name: _RimTexUV
+      second: 0
+    - first:
+        name: _RimWeight
+      second: 0
+    - first:
+        name: _Roughness
+      second: 0.4
+    - first:
+        name: _SkinScatteringProperties
+      second: 0
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Specularity
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _SssBias
+      second: 0
+    - first:
+        name: _SssBumpBlur
+      second: 0.7
+    - first:
+        name: _SssMaskCutoff
+      second: 0.1
+    - first:
+        name: _SssScale
+      second: 1
+    - first:
+        name: _SssWeight
+      second: 1
+    - first:
+        name: _TeamColor
+      second: 0
+    - first:
+        name: _TeamColorMasksAsTint
+      second: 0
+    - first:
+        name: _TransDistortion
+      second: 0.1
+    - first:
+        name: _TransPower
+      second: 1
+    - first:
+        name: _TransWeight
+      second: 1
+    - first:
+        name: _TransmissionProperties
+      second: 0
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _WetMaskSource
+      second: 0
+    - first:
+        name: _WetMaskStrength
+      second: 1
+    - first:
+        name: _WetMaskUV
+      second: 0
+    - first:
+        name: _WetNormalMapScale
+      second: 1
+    - first:
+        name: _WetNormalMapUV
+      second: 0
+    - first:
+        name: _WetRoughness
+      second: 0.2
+    - first:
+        name: _WetWeight
+      second: 1
+    - first:
+        name: _WetnessProperties
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _DecalColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DetailAlbedoMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _DissolveGlowColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _IncandescenceMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _MainTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RimColor
+      second: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 1}
+    - first:
+        name: _RimTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SpecColor
+      second: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SssColorBleedAoWeights
+      second: {r: 0.4, g: 0.15, b: 0.13, a: 0}
+    - first:
+        name: _SssTransmissionAbsorption
+      second: {r: -8, g: -40, b: -64, a: 0}
+    - first:
+        name: _TeamColor0
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _TeamColor1
+      second: {r: 0, g: 1, b: 0, a: 1}
+    - first:
+        name: _TeamColor2
+      second: {r: 0, g: 0, b: 1, a: 1}
+    - first:
+        name: _TeamColor3
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TeamColorMasks
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _WetMaskVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _WetNormalMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _WetTint
+      second: {r: 1, g: 1, b: 1, a: 1}

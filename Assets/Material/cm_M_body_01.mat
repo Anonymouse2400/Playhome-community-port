@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cm_M_body_01
+  m_Shader: {fileID: 4800000, guid: e83fa014f6d090a40a414c4a3bae6a05, type: 2}
+  m_ShaderKeywords: EFFECT_BUMP _DETAIL_MULX2 _RIM_ON
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a1aa39ea1367af64c8af1efe1c19f6be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DecalTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 300, y: 300}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 7396c94d2dd076a40a54268dcf7a6b52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DissolveTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _IncandescenceMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ecaea5bf7baaf59439bdc81af50bd17f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RimTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ef3feb7d10ed06741a4339f4600f26b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SssBrdfTex
+      second:
+        m_Texture: {fileID: 2800000, guid: a94470df24c523944896bc7b03b219d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TeamColorMaskMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WetMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WetNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BaseColorVertexTint
+      second: 0
+    - first:
+        name: _BumpMode
+      second: 0
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Decal
+      second: 0
+    - first:
+        name: _DecalAlphaVertexTint
+      second: 0
+    - first:
+        name: _DecalSpecularity
+      second: 0.5
+    - first:
+        name: _DecalTexUV
+      second: 0
+    - first:
+        name: _DecalWeight
+      second: 1
+    - first:
+        name: _DetailAlbedoMapUV
+      second: 0
+    - first:
+        name: _DetailMaskSource
+      second: 0
+    - first:
+        name: _DetailMaskStrength
+      second: 1
+    - first:
+        name: _DetailMode
+      second: 0
+    - first:
+        name: _DetailNormalMapScale
+      second: 10
+    - first:
+        name: _DetailT
+      second: 1
+    - first:
+        name: _DetailWeight
+      second: 0.05
+    - first:
+        name: _Dissolve
+      second: 0
+    - first:
+        name: _DissolveCutoff
+      second: 0
+    - first:
+        name: _DissolveEdgeWidth
+      second: 0.01
+    - first:
+        name: _DissolveGlowWeight
+      second: 1
+    - first:
+        name: _DissolveTexUV
+      second: 0
+    - first:
+        name: _Emission
+      second: 0
+    - first:
+        name: _EmissionWeight
+      second: 1
+    - first:
+        name: _HasBumpMap
+      second: 1
+    - first:
+        name: _IncandescenceMapUV
+      second: 0
+    - first:
+        name: _Lightmapping
+      second: 1
+    - first:
+        name: _MainPhysicalProperties
+      second: 0
+    - first:
+        name: _MainTexUV
+      second: 0
+    - first:
+        name: _MainTextures
+      second: 0
+    - first:
+        name: _MaxSamples
+      second: 20
+    - first:
+        name: _Metal
+      second: 0
+    - first:
+        name: _MinSamples
+      second: 4
+    - first:
+        name: _Occlusion
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _ParallaxT
+      second: 0
+    - first:
+        name: _Rim
+      second: 1
+    - first:
+        name: _RimBias
+      second: 0
+    - first:
+        name: _RimPower
+      second: 4
+    - first:
+        name: _RimTexUV
+      second: 0
+    - first:
+        name: _RimWeight
+      second: 0
+    - first:
+        name: _Roughness
+      second: 0.438
+    - first:
+        name: _SkinScatteringProperties
+      second: 0
+    - first:
+        name: _Specularity
+      second: 1
+    - first:
+        name: _SssBias
+      second: 0.7
+    - first:
+        name: _SssBumpBlur
+      second: 0.7
+    - first:
+        name: _SssMaskCutoff
+      second: 0.33
+    - first:
+        name: _SssScale
+      second: 1
+    - first:
+        name: _SssWeight
+      second: 0
+    - first:
+        name: _TeamColor
+      second: 0
+    - first:
+        name: _TeamColorMasksAsTint
+      second: 0
+    - first:
+        name: _TransDistortion
+      second: 0.1
+    - first:
+        name: _TransPower
+      second: 1
+    - first:
+        name: _TransWeight
+      second: 1
+    - first:
+        name: _TransmissionProperties
+      second: 0
+    - first:
+        name: _WetMaskSource
+      second: 0
+    - first:
+        name: _WetMaskStrength
+      second: 1
+    - first:
+        name: _WetMaskUV
+      second: 0
+    - first:
+        name: _WetNormalMapScale
+      second: 1
+    - first:
+        name: _WetNormalMapUV
+      second: 0
+    - first:
+        name: _WetRoughness
+      second: 0.2
+    - first:
+        name: _WetWeight
+      second: 1
+    - first:
+        name: _WetnessProperties
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 0.70980394}
+    - first:
+        name: _DecalColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DetailAlbedoMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _DissolveGlowColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 1}
+    - first:
+        name: _IncandescenceMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _MainTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RimColor
+      second: {r: 0.5441177, g: 0.5441177, b: 0.5441177, a: 1}
+    - first:
+        name: _RimTexVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SssColorBleedAoWeights
+      second: {r: 0.4, g: 0.15, b: 0.13, a: 0}
+    - first:
+        name: _SssTransmissionAbsorption
+      second: {r: -8, g: -40, b: -64, a: 0}
+    - first:
+        name: _TeamColor0
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _TeamColor1
+      second: {r: 0, g: 1, b: 0, a: 1}
+    - first:
+        name: _TeamColor2
+      second: {r: 0, g: 0, b: 1, a: 1}
+    - first:
+        name: _TeamColor3
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _TeamColorMasks
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _WetMaskVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _WetNormalMapVelocity
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _WetTint
+      second: {r: 1, g: 1, b: 1, a: 1}

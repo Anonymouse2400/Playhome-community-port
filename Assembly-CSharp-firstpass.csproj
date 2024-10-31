@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F009BEEE-FED2-277E-2DB6-9ED4299659B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_5;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Axis.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\AxisTools.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\BipedLimbOrientations.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\BipedNaming.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\BipedReferences.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Comments.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\DemoGUIMessage.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\AimIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\AimPoser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Amplifier.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\BipedIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\BipedIKSolvers.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\BodyTilt.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\CCDIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Constraint.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\ConstraintPosition.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\ConstraintPositionOffset.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\ConstraintRotation.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\ConstraintRotationOffset.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Constraints.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FABRIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FABRIKChain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FABRIKRoot.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FBBIKArmBending.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FBBIKHeadEffector.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FBIKChain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Finger.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FingerRig.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FullBodyBipedChain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FullBodyBipedEffector.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\FullBodyBipedIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\GenericPoser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Grounder.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\GrounderBipedIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\GrounderFBBIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\GrounderIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\GrounderQuadruped.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Grounding.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\HandPoser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\HitReaction.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\HitReactionVRIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKConstraintBend.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKEffector.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKExecutionOrder.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKMapping.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKMappingBone.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKMappingLimb.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKMappingSpine.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolver.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverAim.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverCCD.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverFABRIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverFABRIKRoot.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverFullBody.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverFullBodyBiped.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverHeuristic.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverLimb.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverLookAt.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverTrigonometric.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\IKSolverVR.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Inertia.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionEffector.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionLookAt.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionObject.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionSystem.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionTarget.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\InteractionTrigger.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\LimbIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\LookAtIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\OffsetModifier.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\OffsetModifierVRIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\OffsetPose.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Poser.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RagdollUtility.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\Recoil.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RotationLimit.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RotationLimitAngle.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RotationLimitHinge.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RotationLimitPolygonal.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\RotationLimitSpline.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\ShoulderRotator.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\TrigonometricIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\TwistRelaxer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\FinalIK\VRIK.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Hierarchy.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Interp.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\InterpolationMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\LargeHeader.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\LayerMaskExtensions.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\QuaTools.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Singleton.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\SolverManager.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\TriggerEventBroadcaster.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\V3Tools.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\RootMotion\Warning.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\AmbientOcclusion.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\AntiAliasing.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\Bloom.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\DepthOfField.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\FXAA.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\IAntiAliasing.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\ImageEffectHelper.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\LensAberrations.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\MinAttribute.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\RenderTextureUtility.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\SMAA.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\ScreenSpaceReflection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CinematicEffects\TonemappingColorGrading.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\AAMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Antialiasing.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Bloom.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomAndFlares.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomScreenBlendMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Blur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BlurOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastEnhance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastStretch.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CreaseShading.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfField.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\EdgeDetection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Fisheye.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\GlobalFog.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Grayscale.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\HDRBloomMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffectBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffects.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\LensflareStyle34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\MotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Quads.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenOverlay.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SepiaTone.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SunShafts.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TiltShift.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Tonemapping.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Triangles.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TweakMode34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Twirl.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Vortex.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Android\DebugLogLogcatListener.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Attributes\ConsoleAttribute.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Attributes\ConsoleCustomTypeParserAttribute.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Attributes\ConsoleMethodAttribute.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\CircularBuffer.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Commands\PlayerPrefsCommands.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Commands\SceneCommands.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\Commands\TimeCommands.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogConsole.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogEntry.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogItem.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogItemCopyWebGL.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogManager.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogPopup.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogRecycledListView.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugLogResizeListener.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\DebugsOnScrollListener.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\EventSystemHandler.cs" />
+     <Compile Include="Assets\Plugins\IngameDebugConsole\Scripts\InputFieldWarningsFixer.cs" />
+     <None Include="Assets\StreamingAssets\abdata\list\custommaterial\cf_m_eye_xyth24_Mlist.txt" />
+     <None Include="Assets\TextAsset\Visitor_VoiceList.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\customtexture\cf_t_lip_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\custommaterial\cf_m_eyelashes_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\Plugins\IngameDebugConsole\README.txt" />
+     <None Include="Assets\TextAsset\MapLightColor.txt" />
+     <None Include="Assets\TextAsset\H_ExpressionList_Yukiko.txt" />
+     <None Include="Assets\TextAsset\MouthExpressionList_F.txt" />
+     <None Include="Assets\TextAsset\H_ExpressionList_Ritsuko.txt" />
+     <None Include="Assets\TextAsset\SkinColorPreset.txt" />
+     <None Include="Assets\TextAsset\Visitor_ExpressionList_Akiko.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\hair\cf_hair_f__xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\TextAsset\EyeExpressionList_F.txt" />
+     <None Include="Assets\TextAsset\PoseList_F.txt" />
+     <None Include="Assets\Plugins\IngameDebugConsole\IngameDebugConsole.Runtime.asmdef" />
+     <None Include="Assets\TextAsset\SelectExpressionList.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\customtexture\cf_t_tattoo_f_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\TextAsset\H_ExpressionList_Akiko.txt" />
+     <None Include="Assets\TextAsset\HairColorPreset.txt" />
+     <None Include="Assets\TextAsset\H_ExpressionList_Male.txt" />
+     <None Include="Assets\TextAsset\MouthExpressionList_M.txt" />
+     <None Include="Assets\TextAsset\Visitor_ExpressionList_Yukiko.txt" />
+     <None Include="Assets\TextAsset\H_VoiceList.txt" />
+     <None Include="Assets\Resources\bluenoise64\LICENSE.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\hair\cf_hair_b_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\TextAsset\PoseList_M.txt" />
+     <None Include="Assets\Plugins\IngameDebugConsole\Editor\IngameDebugConsole.Editor.asmdef" />
+     <None Include="Assets\TextAsset\EyeExpressionList_M.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\customtexture\cf_t_eyeshadow_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\custommaterial\cf_m_eyebrow_xyth24_Mlist.txt" />
+     <None Include="Assets\TextAsset\Visitor_ExpressionList_Ritsuko.txt" />
+     <None Include="Assets\StreamingAssets\abdata\list\customtexture\cf_t_mole_xyth24zhenji_Mlist.txt" />
+     <None Include="Assets\Resources\bluenoise64\COPYING.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/5.5.5f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

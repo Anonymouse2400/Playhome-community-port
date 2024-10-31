@@ -1,0 +1,14 @@
+anime	name
+Mouth_Def	無表情
+Mouth_Smile1	笑顔１
+Mouth_Smile2	笑顔２
+Mouth_Angry	怒り
+Mouth_Surprise	驚き
+Mouth_Sad	悲しみ
+Mouth_Niyari_L	ニヤリ左
+Mouth_Niyari_R	ニヤリ右
+Mouth_Sukebe	スケベ顔
+Mouth_Damage	痛がり
+Mouth_Tehepero	テヘペロ
+Mouth_Name	舐め
+Mouth_Kiss	キス

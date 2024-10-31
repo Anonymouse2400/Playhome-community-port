@@ -1,0 +1,12 @@
+anime	name
+Eye_Def	無表情
+Eye_CloseL	閉じ左
+Eye_CloseR	閉じ右
+Eye_Smile	笑顔
+Eye_Angry	怒り
+Eye_Surprise	驚き
+Eye_Sad	悲しみ
+Eye_WinkL	ウィンク左
+Eye_WinkR	ウィンク右
+Eye_Sukebe	スケベ顔
+Eye_Damage	痛がり

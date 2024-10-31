@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: cf_M_k_ti00
+  m_Shader: {fileID: 4800000, guid: ada2bd48d4fe31547b16f79d0e4ebff3, type: 2}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION _NORMALMAP
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 606f59dc1afe2a148abd3350c1f3e826, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainDetail
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d74c853f92e644b4686d4afd3f43bf51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 2800000, guid: d74c853f92e644b4686d4afd3f43bf51, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecularGlossTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Fresnel
+      second: 1
+    - first:
+        name: _Gloss
+      second: 0.9
+    - first:
+        name: _GlossMapScale
+      second: 0.45
+    - first:
+        name: _Glossiness
+      second: 0.3
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _MainDetailRate
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0.293
+    - first:
+        name: _Mode
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 0.4
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Shininess
+      second: 7.9999995
+    - first:
+        name: _Smoothness
+      second: 0.394
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecInt
+      second: 1
+    - first:
+        name: _Specular
+      second: 0.05
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Transmission
+      second: 0.5
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _LightWrapping
+      second: {r: 0.627451, g: 0.627451, b: 0.627451, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.5882352, g: 0.011176465, b: 0.011176465, a: 1.0032754}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 1, b: 1, a: 1}
