@@ -1,4 +1,4 @@
-# Playhome community port
+# Playhome community port for Android?
 
  Unity Engine used : Unity 5.5.1f1
  Visual studio used ; Visual Studio 2015
@@ -24,7 +24,7 @@ Things todo!
 
 1. Extract every assets bundles that can be seen from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
 2.  rebuild shaders from unity 5.5.5f1 ❌
-3.  Build it as a android ✅
+3.  Build it as a android ✅ (due to the game engine is dated 2016 you have to execute a command on cmd inside platform tool to install this apk on android 13 and above adb "install --bypass-low-target-sdk-block name of the apk.apk "
 
 Whats next?
 Try porting koikatsu and honey select on android!
