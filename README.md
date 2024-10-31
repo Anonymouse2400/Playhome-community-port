@@ -14,4 +14,8 @@
 ![Screenshot_2024-10-31-14-58-41-305_com burger hentai](https://github.com/user-attachments/assets/50243274-3695-4fa0-bb45-6068c7f0856b)
 ![Screenshot_2024-10-31-14-58-25-827_com burger hentai](https://github.com/user-attachments/assets/99a76f08-0bbd-4369-a511-47e41b5396cd)
 
+Things todo!
 
+1. Extract every assets from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
+2.  rebuild shaders from unity 5.5.5f1 ❌
+3.  Build it as a android ✅
