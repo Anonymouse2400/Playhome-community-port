@@ -35,7 +35,8 @@ Updates:
 2. Clothes accessories shaders are working
 3. Will rebuild the human skin shader
 4. H scene is working
-5. apk requires a android version android 12 below dues to unity engine issue will try to repack all assets onto 1 apk
+5. apk requires a android version android 12 below dues to unity engine issue <strike>will try to repack all assets onto 1 apk</strike>
+6. 
 
 
 How to build?
