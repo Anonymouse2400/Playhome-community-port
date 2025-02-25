@@ -26,9 +26,17 @@ dnspy and ilspy for recovering some scripts .
 Things todo!
 
 1. Extract every assets bundles that can be seen from abdata and rebuild as assetbundle using unity 5.5 ( then change the target platform from windows to android) ❌ongoing
-2.  rebuild shaders from unity 5.5.5f1 ❌
+2.  rebuild shaders from unity 5.5.5f1 ✅ 60% converted all to standard shaders for now will try rebuilding the human skin shader
 3.  Build it as a android ✅ (due to the game engine is dated 2016 you have to execute a command on cmd inside platform tool to install this apk on android 13 and above adb "install --bypass-low-target-sdk-block name of the apk.apk " oh dont forgt to switch platform if youre building it to android) ✅
 4.  Adding mods? Translations? Upgrading the game engine to newer version? ❌
+
+Updates:
+1. the game now boots to scene
+2. Clothes accessories shaders are working
+3. Will rebuild the human skin shader
+4. H scene is working
+5. apk requires a android version android 12 below dues to unity engine issue will try to repack all assets onto 1 apk
+
 
 How to build?
 Download this whole package and open in unity 5.5.5f1 as project and build to windows or android (assets will not load still looking for a quick fix)
