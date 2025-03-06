@@ -42,5 +42,22 @@ Updates:
 How to build?
 Download this whole package and open in unity 5.5.5f1 as project and build to windows or android (assets will not load still looking for a quick fix)
 
+test build 
+Playhome android port beta
+
+Github :https://github.com/Anonymouse2400/Playhome-community-port
+
+to install apk download this https://drive.google.com/file/d/1I1THe_LOYRJuHxW_zHyd-T2PCYMSptri/view?usp=drive_link you need platform tools(search on google) to bypass apk restriction enable usb debugging first and type adb install --bypass-low-target-sdk-block test.apk
+
+extract all the contents of this https://drive.google.com/file/d/1JyHjF4woI8NdukulZYK1BUPapdb2YJmw/view?usp=drive_link to android/data/com.burger.hentai/files/abdata
+
+also extract this https://drive.google.com/file/d/1lvrqJ5GD6Tv0vLzBAjAl6BekhcO6wK70/view?usp=drive_link to android/data/com.burger.hentai/files/
+
+Tested on redmi note 13 4g android 15 sd 685,samsung a05s android 14 sd 680, and redmi 9c helio g35 android 10
+
+I'll update the source code on github soon i need assistant from community as im continuing to port koikatsu even it is not finished yet
+
+game size is 3.5 gb , runs on 32 bit
+
 Whats next?
 Well Try porting koikatsu and honey select on android though i did have started some!
